@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Sofadi One", system-ui;
+
+  font-style: normal;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wr-left,
+.wr-right {
+  width: 20%;
+}
+
+.main {
+  height: 90vh;
+  width: 100vw;
+  border-radius: 4%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.main .right {
+  background-color: rgba(253, 253, 253, 0.866);
+  border: none;
+  border-radius: 5%;
+  height: 50vh;
+  width: 45vw;
+}
+
+.main .right .first,
+.main .right .second,
+.main .right .three {
+  display: flex;
+  justify-content: space-between;
+  max-width: 40vw;
+  height: fit-content;
+  margin: 2vh 2vw;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 3vh;
+  border-bottom: 1px solid black;
+}
+
+.details-sec {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main .right .details-sec .tel,
+.cardNo {
+  background-color: inherit;
+
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 2vh 0;
+  margin-right: 0;
+  display: block;
+}
+
+.main .right #tel,
+#cardNo {
+  background-color: inherit;
+  border: none;
+  margin: 2vh 2vw;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-right: 0;
+}
+
+.right .payment-sec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .right .payment-sec p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 1vw;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.8); /* Increases both width and height */
+  -webkit-transform: scale(1.8); /* Ensures cross-browser compatibility */
+  margin: 10px; /* Adjust spacing if needed */
+}
+
+.main .pay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+}
+
+.main .pay > button {
+  padding: 1vh 1vw;
+  background-color: rgb(67, 67, 248);
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-radius: 4%;
+}
+
+.main .left {
+  position: absolute;
+  top: 30vh;
+  left: -12vw;
+}
+.main .left > img {
+  height: auto;
+  width: 28vw;
+  z-index: 777;
+}
+
+.wrapper {
+  background-image: url("https://i.pinimg.com/564x/53/d0/b0/53d0b0618065f735a8a8bc826056016e.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
